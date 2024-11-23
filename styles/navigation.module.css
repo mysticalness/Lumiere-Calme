@@ -1,0 +1,15 @@
+.nav {
+    width: 50px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px 5px;
+    box-shadow: 0 0 1px #ffffff;
+}
+
+.nav :global(.material-symbols-outlined) {
+    font-size: 32px;
+    cursor: pointer;
+  }
