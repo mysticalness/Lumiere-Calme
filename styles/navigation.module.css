@@ -7,9 +7,16 @@
     text-align: center;
     padding: 10px 5px;
     box-shadow: 0 0 1px #ffffff;
+    z-index: 1;
 }
 
 .nav :global(.material-symbols-outlined) {
     font-size: 32px;
     cursor: pointer;
-  }
+}
+
+.homeIcon {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}

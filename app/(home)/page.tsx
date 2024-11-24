@@ -8,11 +8,11 @@ export default async function Home() {
                 <div className={styles.titleName}>Lumiere <br /> Calme</div>
             </div>
             <div className={styles.enterDiv}>
-                <button className={styles.enterBtn}>
-                    <Link href="/main">
+                <Link href="/main">
+                    <button className={styles.enterBtn}>
                         Enter
-                    </Link>
-                </button>
+                    </button>
+                </Link>
             </div>
         </div>
     )

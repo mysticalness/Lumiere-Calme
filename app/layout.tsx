@@ -1,5 +1,6 @@
 import "../styles/global.css"
 import Navigation from "../components/navigation"
+import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Next.js',
@@ -14,7 +15,10 @@ export default function Layout({
   return (
     <html lang="en">
       <head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+        />
       </head>
       <body>
         <Navigation />
